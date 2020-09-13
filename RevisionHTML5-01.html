@@ -1,0 +1,252 @@
+<!-- Basado en:
+https://www.w3schools.com/html/exercise.asp?filename=exercise_html_styles6
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trabajo Inicial Modulo 1 : Introduction to HTML and JavaScript</title>
+      <link rel="stylesheet" href="public/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="navbar">
+        <a href="index.html">Inicio</a>
+        <a class="active" href="RevisionHTML5-01.html">Revisión HTML 5</a>
+        <a href="RevisionCCS3-01.html">CSS3</a>
+    </div>
+    <div class="sidenav">
+      <button class="dropdown-btn">HTML Atributes 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_attributes_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_attributes_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_attributes_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_attributes_ex_4.html" target="myFrame">Exercise 4</a>
+      </div>
+      <button class="dropdown-btn">HTML Headings 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_heading_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_heading_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_heading_ex_3.html" target="myFrame">Exercise 3</a>
+      </div>
+      <button class="dropdown-btn">HTML Paragraphs 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_paragraphs_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_paragraphs_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_paragraphs_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_paragraphs_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_paragraphs_ex_5.html" target="myFrame">Exercise 5</a>
+      </div>
+      <button class="dropdown-btn">HTML Styles 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">*HTML Formatting 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_formatting_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_formatting_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_formatting_ex_3.html" target="myFrame">*Exercise 3</a>
+        <a href="html5/html_formatting_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_formatting_ex_5.html" target="myFrame">Exercise 5</a>
+      </div>
+      <button class="dropdown-btn">HTML Quotations
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_quotations_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_quotations_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_quotations_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_quotations_ex_4.html" target="myFrame">Exercise 4</a>
+      </div>
+      <button class="dropdown-btn">HTML Comments 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_comments_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_comments_ex_2.html" target="myFrame">Exercise 2</a>
+      </div>
+      <button class="dropdown-btn">HTML CSS 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_css_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_css_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_css_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_css_ex_4.html" target="myFrame">Exercise 4</a>
+      </div>
+      <button class="dropdown-btn">HTML Links 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_links_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_links_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_links_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_links_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_links_ex_5.html" target="myFrame">Exercise 5</a>
+      </div>
+      <button class="dropdown-btn">HTML Images 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_images_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_images_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_images_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_images_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_images_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_images_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Tables 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_tables_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_tables_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_tables_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_tables_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_tables_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_tables_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Lists 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Clases 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Id 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Iframes 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Scripts 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Computercode 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Forms 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Form Attributes 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Elements 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Input Types 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+      <button class="dropdown-btn">HTML Input Attributes 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="html5/html_styles_ex_1.html" target="myFrame">Exercise 1</a>
+        <a href="html5/html_styles_ex_2.html" target="myFrame">Exercise 2</a>
+        <a href="html5/html_styles_ex_3.html" target="myFrame">Exercise 3</a>
+        <a href="html5/html_styles_ex_4.html" target="myFrame">Exercise 4</a>
+        <a href="html5/html_styles_ex_5.html" target="myFrame">Exercise 5</a>
+        <a href="html5/html_styles_ex_6.html" target="myFrame">Exercise 6</a>
+      </div>
+    </div>
+    <div class="content">
+      <iframe src="html5/home.html" name="myFrame"></iframe>
+    </div>
+    <script src="public/main.js"></script>
+  </body>
+</html>
