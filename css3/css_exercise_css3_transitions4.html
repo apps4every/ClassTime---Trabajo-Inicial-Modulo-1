@@ -1,0 +1,55 @@
+<h1>CSS css3_transitions, Exercise 4</h1>
+      <p>Add a 2 second transition effect for background, and transform changes of the &lt;div&gt; element.</p>
+<pre>
+<code>
+&#60;html&#62;
+&#60;head&#62;
+&#60;style&#62; 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: background 2s, transform 2s;
+}
+
+div:hover {
+  background: blue;
+  transform: rotate(180deg);
+}
+&#60;/style&#62;
+&#60;/head&#62;
+&#60;body&#62;
+
+&#60;div&#62;&#60;/div&#62;
+
+&#60;p&#62;Hover over the div element above.&#60;/p&#62;
+
+&#60;/body&#62;
+&#60;/html&#62;
+</code>
+</pre>
+<p> Example:</p>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: background 2s, transform 2s;
+}
+
+div:hover {
+  background: blue;
+  transform: rotate(180deg);
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>

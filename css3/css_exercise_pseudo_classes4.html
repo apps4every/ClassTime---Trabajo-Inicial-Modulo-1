@@ -1,0 +1,43 @@
+<h1>CSS pseudo_classes, Exercise 4</h1>
+      <p>Set the background color of &lt;input&gt; elements that are in focus (clicked or active), to &quot;lightblue&quot;.</p>
+<pre>
+<code>
+&#60;html&#62;
+&#60;head&#62;
+&#60;style&#62;
+input:focus {
+  background-color: lightblue;
+}
+&#60;/style&#62;
+&#60;/head&#62;
+&#60;body&#62;
+
+&#60;form action="/action_page.php" method="get"&#62;
+  First name: &#60;input type="text" name="fname"&#62;&#60;br&#62;
+  Last name: &#60;input type="text" name="lname"&#62;&#60;br&#62;
+  &#60;input type="submit" value="Submit"&#62;
+&#60;/form&#62;
+
+&#60;/body&#62;
+&#60;/html&#62;
+</code>
+</pre>
+<p> Example:</p>
+<html>
+<head>
+<style>
+input:focus {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

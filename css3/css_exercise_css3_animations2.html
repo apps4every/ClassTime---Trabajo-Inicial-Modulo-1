@@ -1,0 +1,61 @@
+<h1>CSS css3_animations, Exercise 2</h1>
+      <p>Add the following 5 steps to the animation &quot;example&quot; (using 0%, 25%, 50%, 
+<pre>
+<code>
+&#60;html&#62;
+&#60;head&#62;
+&#60;style&#62; 
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red; left:0px; top:0px;}
+  25%  {background-color: blue; left:0px; top:200px;}
+  50%  {background-color: green; left:200px; top:200px;}
+  75%  {background-color: yellow; left:200px; top:0px;}
+  100% {background-color: red; left:0px; top:0px;}
+}
+&#60;/style&#62;
+&#60;/head&#62;
+&#60;body&#62;
+
+&#60;div&#62;&#60;/div&#62;
+
+&#60;/body&#62;
+&#60;/html&#62;
+</code>
+</pre>
+<p> Example:</p>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red; left:0px; top:0px;}
+  25%  {background-color: blue; left:0px; top:200px;}
+  50%  {background-color: green; left:200px; top:200px;}
+  75%  {background-color: yellow; left:200px; top:0px;}
+  100% {background-color: red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

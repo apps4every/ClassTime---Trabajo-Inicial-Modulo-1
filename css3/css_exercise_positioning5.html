@@ -1,0 +1,69 @@
+<h1>CSS positioning, Exercise 5</h1>
+      <p>Position the element with the "topleft" class 30px from the left, and 15px from the top, relative to its container.</p>
+<pre>
+<code>
+&#60;html&#62;
+&#60;head&#62;
+&#60;style&#62;
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+&#60;/style&#62;
+&#60;/head&#62;
+&#60;body&#62;
+
+&#60;div class="container"&#62;
+  &#60;img src="img_5terre.jpg" alt="Cinque Terre" width="1000" height="300"&#62;
+  &#60;div class="topleft"&#62;Top Left&#60;/div&#62;
+&#60;/div&#62;
+
+&#60;/body&#62;
+&#60;/html&#62;
+
+</code>
+</pre>
+<p> Example:</p>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="img_5terre.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topleft">Top Left</div>
+</div>
+
+</body>
+</html>
+
