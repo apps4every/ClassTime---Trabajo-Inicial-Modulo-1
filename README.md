@@ -1,4 +1,4 @@
-# ClassTime---Trabajo-Inicial-Modulo-1
+# ClassTime - Trabajo Inicial Modulo-1
 
 <h2>Modulos 1 y 2</h2>
 
