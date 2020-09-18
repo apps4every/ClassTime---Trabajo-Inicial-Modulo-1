@@ -14,3 +14,13 @@
       <p>El resultado subirlo al repositorio GitHub</p>
      </li>
 </ol>
+<table >
+  <tr>
+    <td>
+      <img src="html5/finish.webp" alt="resultado realizar los test de HTML5" style=" width: 100%;height: auto;">
+    </td>
+    <td>
+      <img src="css3/finish.webp" alt="resultado realizar los test de CSS3" style=" width: 100%;height: auto;">
+    </td>
+  </tr>
+</table>
